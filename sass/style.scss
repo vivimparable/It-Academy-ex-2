@@ -1,0 +1,13 @@
+@import "acordeon";
+@import "cardsmain";
+@import "footer";
+@import "globalcode";
+@import "header";
+@import "mediaQ";
+@import "navbtabs";
+
+$primary: #5265e1;
+$danger: #fa5959;
+
+/*bootstrap en sass*/
+@import "../node_modules/bootstrap/scss/bootstrap";

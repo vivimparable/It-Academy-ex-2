@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+  header button {
+    width: 50%;
+  }
+
+  .card-main-width {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .acordeon,
+  .sections {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar button {
+    margin-left: 0rem;
+    margin-top: 0.3rem;
+  }
+  .card-main-width {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .nav-tabs-custom li:nth-child(1) {
+    border-top: solid rgb(136, 136, 136, 0.3) 2px;
+    padding-top: 0.5rem;
+  }
+  .footer-button button {
+    width: 100%;
+  }
+}
